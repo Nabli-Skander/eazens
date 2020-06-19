@@ -1,0 +1,727 @@
+﻿<!DOCTYPE html>
+<html lang="fr" class="background-100-e">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EZens </title>
+    <meta name="description" content="EZens">
+    <meta name="keywords"
+          content="ezens,creation de site montpellier,ezens agence communication,ezens.fr,ezens site montpellier,ezens montpellier,montpellier ezens, e-commerce montpellier, site montpellier ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bower_components\fontawesome\css\font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components\animate.css\animate.min.css">
+    <link rel="stylesheet" href="bower_components\minicolors\jquery.minicolors.css">
+    <link rel="stylesheet" href="bower_components\slick.js\slick\slick.css">
+    <link rel="stylesheet" href="bower_components\slick.js\slick\slick-theme.css">
+    <link rel="stylesheet" href="bootstrap\dist\css\bootstrap-custom.min.css">
+    <link rel="stylesheet" href="lib\linecons\style.css">
+    <link rel="stylesheet" href="styles\style.min.css">
+    <link rel="stylesheet" href="theme-custom.css">
+    <link rel="stylesheet" href="styles\textstyles.css">
+    <link rel="stylesheet" type="text/css" href="styles\normalize.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles\preload2.css">
+
+    <style type="text/css">
+
+        .imgcontent {
+            position: relative;
+            width: 100%;
+            /*max-width: 400px;*/
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .imgcontent .content-overlay {
+            background: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            opacity: 0;
+            -webkit-transition: all 0.4s ease-in-out 0s;
+            -moz-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+        }
+
+        .imgcontent:hover .content-overlay {
+            opacity: 1;
+        }
+
+
+        .imgcontent-details {
+            position: absolute;
+            text-align: center;
+            padding-left: 1em;
+            padding-right: 1em;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            opacity: 0;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            -moz-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s;
+        }
+
+        .imgcontent:hover .imgcontent-details {
+            top: 50%;
+            left: 50%;
+            opacity: 1;
+        }
+
+        .imgcontent-details h3 {
+            color: #fff;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.5em;
+            text-transform: uppercase;
+        }
+
+        .imgcontent-details p {
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .fadeIn-bottom {
+            top: 80%;
+        }
+
+
+        .smallfont {
+            font-size: 8px;
+            line-height: 13.5px;
+        }
+
+
+    </style>
+    <script src="scripts/shine.js"></script>
+
+
+</head>
+
+<div id="test" class="preloader">
+    <div class="wrap">
+        <div class="bg">
+            <div class="loading">
+                <span class="titlepr">Chargement</span>
+                <span class="text">Bienvenue</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body class="state1 background-100-e">
+<div class="ext-nav background-95-h page-transition">
+    <div class="view half-height">
+        <div class="content no-top-padding no-bottom-padding  full-height">
+            <div class="container-fluid  full-height">
+                <div class="row full-height">
+                    <a href="#news" class="col-md-6 colors-a background-95 full-height">
+                        <div>
+                            <span class="side-title">Link1</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  half-height">
+        <div class="row full-height">
+            <a href="#team" class="col-md-4 colors-g background-solid full-height border-bottom border-lite">
+                <div>
+                    <span class="side-title">Link2</span>
+                </div>
+            </a>
+            <a href="#about"
+               class="col-md-4 colors-g background-solid full-height border-bottom border-left border-lite">
+                <div>
+                    <span class="side-title">Link3</span>
+                </div>
+            </a>
+            <a href="#servery"
+               class="col-md-4 colors-g background-solid full-height border-bottom border-left border-lite">
+                <div>
+                    <span class="side-title">Link4</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="page-border bottom colors-e background-solid"><a href="#top" class="hover-effect"><span
+        class="highlight">⮝</span></a></div>
+<div class="page-border left colors-e background-solid">
+    <ul>
+        <li>
+            <a class="facebook" href="#" title="#" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a class="yt" href="#" target="_blank" title="#">
+                <i class="fa fa-youtube"></i>
+            </a>
+        </li>
+        <li>
+            <a class="ts" href="#" title="#">
+                <i class="fa fa-headphones" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+<!-- BEGIN: Top menu -->
+<div class="page-border right colors-e background-solid"></div>
+<nav class="navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation"
+     id="top-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <!--            <a class="menu-toggle ext-nav-toggle visible-xs-block" data-target=".ext-nav" href="#"><span></span></a>-->
+            <a class="menu-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"
+               href="#"><span></span></a>
+            <a class="navbar-brand" href=""><span class="highlight">E</span>Zens</a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home" class="hover-effect noBorder">Accueil</a></li>
+                <li><a href="#about" class="hover-effect noBorder">Nous</a></li>
+                <li><a href="#howto" class="hover-effect noBorder">menu1</a></li>
+                <li><a href="#servery" class="hover-effect noBorder">Hebergement</a></li>
+                <li><a href="#team" class="hover-effect noBorder">Equipe</a></li>
+                <li><a href="#news" class="hover-effect noBorder">Creation</a></li>
+                <!--                <li class="hidden-xs">-->
+                <!--                    <a class="menu-toggle ext-nav-toggle" data-target=".ext-nav" href="#"><span></span></a>-->
+                <!--                </li>-->
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- END: Top menu -->
+
+<!-- BEGIN: Page content -->
+
+<div class="video-bg" data-video="bg.mp4" data-mute="yes" data-volume="0"
+     data-alternative="images/bg.jpg"></div>
+<section id="home" style="min-height: 100vh;">
+    <div class="view">
+        <div class="content home-suzi full-size colors-c background-40">
+            <div class="container">
+                <h2><span class="thin-font-weight">Mon <span class="highlight">Site</span></span></h2>
+                <h1 class="text-center">E<span class="highlight font-weight">Zens</span></h1>
+
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4">
+                        <p class="title text-center">
+                            "À vaincre sans péril,<br> on triomphe sans gloire."
+                        </p>
+                    </div>
+                </div>
+                <p class="text-center">
+                    <a href="#servery" class="button background-60-f heading-f border-hard">Hebergement</a>
+                    <a href="#news" target="" class="button background-60-f heading-f border-hard">Creation</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Begin About us -->
+<section style="min-height: 100vh;" id="about">
+    <div class="view">
+        <div class="content colors-e background-solid">
+            <div class="container">
+                <div class="row">
+
+                </div>
+
+                <br>
+                <h3><span class="highlight">Quoi</span> sommes-nous?</h3>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <p class="text-center"><span class="highlight">E</span>ZENS, Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                            in culpa qui officia deserunt mollit anim id est laborum..</p>
+                    </div>
+                </div>
+                <div class="row icon-set">
+                    <div class="col-md-3 text-center">
+                        <p>
+                            <i class="fa fa-heartbeat circle scroll-in-animation background-20 heading"
+                               data-animation="fadeIn"></i>
+                        </p>
+                        <p class="title"><span class="underline-text highlight">Lorem ipsum</span></p>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>
+                            <i class="fa fa-trophy circle scroll-in-animation background-20 heading"
+                               data-animation="fadeIn"></i>
+                        </p>
+                        <p class="title"><span class="underline-text highlight">Lorem ipsum</span></p>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>
+                            <i class="fa fa-calendar-o circle scroll-in-animation background-20 heading"
+                               data-animation="fadeIn"></i>
+                        </p>
+                        <p class="title"><span class="underline-text highlight">Lorem ipsum</span></p>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <p>
+                            <i class="fa fa-users circle scroll-in-animation background-20 heading"
+                               data-animation="fadeIn"></i>
+                        </p>
+                        <p class="title"><span class="underline-text highlight">Lorem ipsum</span></p>
+                        <p>Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    Slider de slogan-->
+
+    <!--    <div class="view">-->
+    <!--        <img id="shine" alt="" class="bg" src="images\bg.jpg">-->
+    <!--        <div class="content half-size colors-h">-->
+    <!--            <div class="container">-->
+    <!--                <div class="show-list slogan">-->
+    <!--                    <div class="show-item">A la pointe du design</div>-->
+    <!--                    <div class="show-item">Réferencement naturel SEO</div>-->
+    <!--                    <div class="show-item">Optimisation</div>-->
+    <!--                    <div class="show-item">Vous etes roi</div>-->
+    <!--                    <div class="show-item">Shibalba</div>-->
+    <!--                </div>-->
+    <!--                <div class="separator"></div>-->
+
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+</section>
+
+<section id="howto">
+    <div class="view">
+        <div class="content colors-e background-solid">
+            <div class="container">
+                <h2>Votre site, a votre image, pour vos besoin <span class="highlight">E</span>Zens</h2>
+                <p class="header-details"><span class="highlight">Notre priorité</span> c'est vous</p>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit,.</p>
+                <div class="process">
+                    <div class="row process-row">
+                        <div class="col-sm-4 process-step">
+                            <div class="process-box"><i class="fa fa-pencil-square-o heading highlight"></i></div>
+                            <p class="title">Création/Optimisation/Finalisation </p>
+                            <p class="text-center">Nous creons, nous donnons vie a vos projets, et nous vous ntm </p>
+                        </div>
+                        <div class="col-sm-4 process-step">
+                            <div class="process-box"><i class="fa fa-file-text-o heading highlight"></i></div>
+                            <p class="title">Hebergement</p>
+                            <p class="text-center">Nous administrons la partie hebergement. Site prés a l'emploie.
+                            </p>
+                        </div>
+                        <div class="col-sm-4 process-step">
+                            <div class="process-box"><i class="fa fa-headphones heading highlight">f298;</i></div>
+                            <p class="title">service aprés vente</p>
+                            <p class="text-center">Nous restons a votre ecoute, nous vous accompagnons.
+                            </p>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="servery">
+    <!-- BEGIN: Gaming -->
+    <div class="view">
+        <div class="content colors-e background-solid">
+            <div class="container">
+                <h2>Hebergement</h2>
+                <p class="header-details"><span class="highlight">Lorem ipsum dolor sit amet, </span> consectetur
+                    adipiscing elit.</p>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="col-icon">
+                            <i class="fa fa-server"></i>
+                        </div>
+                        <div class="col-content">
+                            <h4>Server ultra <span class="highlight">Sécurisé</span></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-icon">
+                            <i class="fa fa-gavel"></i>
+                        </div>
+                        <div class="col-content">
+                            <h4>Au top de l'<span class="highlight">Optimisation</span></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-icon">
+                            <i class="fa fa-clock-o"></i>
+                        </div>
+                        <div class="col-content">
+                            <h4>En temps <span class="highlight">et en heure</span></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="team">
+    <div class="view">
+        <div class="content colors-e background-solid">
+            <div class="container">
+                <h2>équipe</h2>
+                <p class="header-details"><span class="highlight">Qui </span>sommes nous</p>
+                <p class="lead">Notre succès nous le devons a la <strong class="highlight">force de notre
+                    équipe.</strong> <br>
+                    Pasionné blba balbal bal balblab al aze blabla lbalba ea lbaba blablba bal balblab al aze blabla bal
+                    balblab al aze blabla.</p>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6  col-xs-6 col-md-offset-3">
+                        <div class="hover-overlay">
+                            <img alt="dev" src="images\mariage_2080.jpg" class="fluid-width">
+                        </div>
+                        <div class="caption">
+                            <p>
+                                <span class="title">Shibalba</span>
+                                <br>
+                                <span class="highlight">Développeur</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6  col-xs-6">
+                        <div class="hover-overlay">
+                            <img alt="dev" src="images\mariage_2080.jpg" class="fluid-width">
+
+                        </div>
+                        <div class="caption">
+                            <p>
+                                <span class="title">Shibalba</span>
+                                <br>
+                                <span class="highlight">Co-Développeur</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="news">
+    <div class="view">
+        <div class="content no-bottom-padding colors-e background-solid">
+            <div class="container" >
+                <h2><span class="highlight">création E</span>zens</h2>
+                <p class="header-details"><span class="highlight">Création </span>| Optimisation |<span
+                        class="highlight"> Sécurité</span>
+                </p>
+            </div>
+            <div class="gallery colors-h background-solid" data-default-group="all"
+                 data-overlay=".gallery-overlay">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6" style="background-color:initial;padding:10px;">
+                                <a href="http://localhost/yves-rocher" target="_blank">
+                                    <div style="width:100%;background:#191919;margin:0 auto;">
+                                        <div class="imgcontent">
+                                            <div class="content-overlay"></div>
+                                            <img align="center"
+                                                 class="imgcontent-image img-responsive newscontent-image"
+                                                 src="images\logo_yves-rocher.png" style="width:100%;height:100%">
+                                            <div class="imgcontent-details fadeIn-bottom">
+                                                <p class="imgcontent-text"><i class="fa fa-eye"></i> Yves Rocher.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-md-6 col-sm-6" style="background-color:initial;padding:10px;">
+                                <a href="http://127.0.0.1:8000" target="_blank">
+                                    <div style="width:100%;background:#191919;margin:0 auto;">
+                                        <div class="imgcontent">
+                                            <div class="content-overlay"></div>
+                                            <img align="center"
+                                                 class="imgcontent-image img-responsive newscontent-image"
+                                                 src="images\amj_immo.png" style="width:100%;height:100%">
+                                            <div class="imgcontent-details fadeIn-bottom">
+                                                <p class="imgcontent-text"><i class="fa fa-eye"></i> AMJ Immobilier.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="col-md-6 col-sm-6" style="background-color:initial;padding:10px;">
+                                <a href="http://localhost/mojave" target="_blank">
+                                    <div style="width:100%;background:#191919;margin:0 auto;">
+                                        <div class="imgcontent">
+                                            <div class="content-overlay"></div>
+                                            <img align="center"
+                                                 class="imgcontent-image img-responsive newscontent-image"
+                                                 src="images\logo_Mojave.png" style="width:100%;height:100%">
+                                            <div class="imgcontent-details fadeIn-bottom">
+                                                <p class="imgcontent-text"><i class="fa fa-eye"></i> Mojave.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="col-md-6 col-sm-6" style="background-color:initial;padding:10px;">
+                                <a href="http://localhost/gowan/" target="_blank">
+                                    <div style="width:100%;background:#191919;margin:0 auto;">
+                                        <div class="imgcontent">
+                                            <div class="content-overlay"></div>
+                                            <img align="center"
+                                                 class="imgcontent-image img-responsive newscontent-image"
+                                                 src="images\logo_gowan.png" style="width:100%;height:100%">
+                                            <div class="imgcontent-details fadeIn-bottom">
+                                                <p class="imgcontent-text"><i class="fa fa-eye"></i> Gowan.
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- END: Page content -->
+<!-- BEGIN: Footer -->
+<!--        <footer class="colors-g page-transition non-preloading">-->
+<!--            <div class="container scroll-in-animation" data-animation="fadeIn">-->
+<!--                <div class="row">-->
+<!--                    <div class="mx-auto">-->
+<!--                        <h4>Retronix Gaming Community</h4>-->
+<!--                        <div class="footer-description">Contact-->
+<!--                        </div>-->
+
+<!--                        <div class='flip-container'>-->
+<!--                            <a class="facebook" href="retronixcz\index.htm" title=""-->
+<!--                               target="_blank">-->
+<!--                                <div id='flip-circle' class="facebookcir">-->
+<!--                                    <i class='fa fa-facebook'></i>-->
+<!--                                    <i class='fa fa-facebook'></i>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class='flip-container'>-->
+<!--                            <a href="error\404.html" target="_blank" title="">-->
+<!--                                <div id='flip-circle' class="ytcir">-->
+<!--                                    <i class='fa fa-youtube'></i>-->
+<!--                                    <i class='fa fa-youtube'></i>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class='flip-container'>-->
+<!--                            <a href="domczech.html" target="_blank" title="">-->
+<!--                                <div id='flip-circle' class="twitchcir">-->
+<!--                                    <i class='fa fa-twitch'></i>-->
+<!--                                    <i class='fa fa-twitch'></i>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class='flip-container'>-->
+<!--                            <a href="groups\retronixcz.html" target="_blank" title="">-->
+<!--                                <div id='flip-circle' class="steamcir">-->
+<!--                                    <i class='fa fa-steam'></i>-->
+<!--                                    <i class='fa fa-steam'></i>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                        <div class='flip-container'>-->
+<!--                            <a href="" target="_blank" title="">-->
+<!--                                <div id='flip-circle' class="tscir">-->
+<!--                                    <i class='fa fa-headphones'></i>-->
+<!--                                    <i class='fa fa-headphones'></i>-->
+<!--                                </div>-->
+<!--                            </a>-->
+<!--                        </div>-->
+
+<!--                    </div>-->
+
+<!--                </div>-->
+
+<!--            </div>-->
+
+
+<!--            <div class="bottom text-center background-5-b">-->
+<!--                © EZens 2018-->
+<!--            </div>-->
+<!--        </footer>-->
+<!-- END: Footer -->
+
+
+<script src="bower_components\less.js\dist\less.min.js"></script>
+<script src="bower_components\jquery\dist\jquery.min.js"></script>
+<script src="lib\tween\tween.min.js"></script>
+<script src="bootstrap\dist\js\bootstrap.min.js"></script>
+<script src="bower_components\modernizr\modernizr.js"></script>
+<script src="lib\SmoothScroll-1.2.1\SmoothScroll.js"></script>
+<script src="bower_components\jquery-cookie\jquery.cookie.js"></script>
+<script src="bower_components\jqBootstrapValidation\dist\jqBootstrapValidation-1.3.7.min.js"></script>
+<script src="bower_components\minicolors\jquery.minicolors.min.js"></script>
+<script src="bower_components\slick.js\slick\slick.min.js"></script>
+<script src="bower_components\shufflejs\dist\jquery.shuffle.min.js"></script>
+<script src="bower_components\textillate\assets\jquery.lettering.js"></script>
+<script src="bower_components\textillate\assets\jquery.fittext.js"></script>
+<script src="bower_components\textillate\jquery.textillate.js"></script>
+<script src="lib\prism\prism.js"></script>
+<script src="scripts/shine.js"></script>
+
+
+<script src="scripts\preload1.js"></script>
+
+
+<script>
+    var config = new shinejs.Config({
+        shadowRGB: new shinejs.Color(255, 255, 255)
+    });
+
+    var shine = new Shine(document.getElementById('shine'),config);
+
+
+    window.addEventListener('mousemove', function (event) {
+        shine.light.position.x = event.clientX;
+        shine.light.position.y = event.clientY;
+        shine.draw();
+    }, false);
+</script>
+<script>
+    (function () {
+        var disableMobileAnimations = true;
+        var isWin = navigator.appVersion.indexOf("Win") !== -1;
+        if (isWin) $('html').addClass('win');
+        var ua = navigator.userAgent.toLowerCase();
+        var isChrome = ua.indexOf('chrome') > -1;
+        if (isChrome) $('html').addClass('chrome');
+        var isAndroidBrowser4_3minus = ((ua.indexOf('mozilla/5.0') > -1 && ua.indexOf('android ') > -1 && ua.indexOf('applewebkit') > -1) && !(ua.indexOf('chrome') > -1));
+        if (isAndroidBrowser4_3minus) $('html').addClass('android-browser-4_3minus');
+        var isSafari = !isChrome && ua.indexOf('safari') !== -1;
+        if (isSafari) $('html').addClass('safari');
+        var isMobile = Modernizr.touch;
+        if (isMobile) {
+            $('html').addClass('mobile');
+            if (disableMobileAnimations) $('html').addClass('poor-browser');
+        } else {
+            $('html').addClass('non-mobile');
+        }
+        if (isWin && isSafari) {
+            $('html').addClass('flat-animation');
+        }
+    })();
+</script>
+<script src="scripts\script-bundle.js"></script>
+
+<!--Start of Tawk.to Script-->
+
+<!--&lt;!&ndash;Start of Tawk.to Script&ndash;&gt;-->
+<!--<script type="text/javascript">-->
+<!--    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();-->
+<!--    (function () {-->
+<!--        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];-->
+<!--        s1.async = true;-->
+<!--        s1.src = 'https://embed.tawk.to/5953f365e9c6d324a4737ce5/default';-->
+<!--        s1.charset = 'UTF-8';-->
+<!--        s1.setAttribute('crossorigin', '*');-->
+<!--        s0.parentNode.insertBefore(s1, s0);-->
+<!--    })();-->
+<!--</script> &lt;!&ndash;Start of Tawk.to Script&ndash;&gt;-->
+
+<!--End of Tawk.to Script-->
+<link rel="stylesheet" type="text/css" href="ajax\libs\cookieconsent2\3.1.0\cookieconsent.min.css">
+<script src="ajax\libs\cookieconsent2\3.1.0\cookieconsent.min.js"></script>
+<script>
+    window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#ffffff"
+                },
+                "button": {
+                    "background": "#d25b06"
+                }
+            },
+            "position": "top",
+            "content": {
+                "message": "Dit oui",
+                "dismiss": "Ok",
+                "link": "Lire la suite",
+                "href": "#"
+            }
+        })
+    });
+</script>
+
+
+</section>
+</section>
+</body>
+</html>

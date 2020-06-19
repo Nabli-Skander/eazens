@@ -1,0 +1,36 @@
+﻿@font-face {
+    font-family: 'Purista';
+    src: url('PuristaMedium.html');
+    src: url('PuristaMediumd41d.html') format('embedded-opentype'),
+         url('PuristaMedium-2.html') format('woff'),
+         url('PuristaMedium-3.html') format('truetype'),
+         url('PuristaMedium-4.html') format('svg'),
+         local('☺');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Purista';
+    src: url('PuristaSemibold.html');
+    src: url('PuristaSemiboldd41d.html') format('embedded-opentype'),
+         url('PuristaSemibold-2.html') format('woff'),
+         url('PuristaSemibold-3.html') format('truetype'),
+         url('PuristaSemibold-4.html') format('svg'),
+         local('☺');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Purista';
+    src: url('PuristaBold.html');
+    src: url('PuristaBoldd41d.html') format('embedded-opentype'),
+         url('PuristaBold-2.html') format('woff'),
+         url('PuristaBold-3.html') format('truetype'),
+         url('PuristaBold-4.html') format('svg'),
+         local('☺');
+    font-weight: 700;
+    font-style: normal;
+}
